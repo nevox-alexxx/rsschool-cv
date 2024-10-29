@@ -1,7 +1,8 @@
 # Oleksandr Alonkin, 21 ![Oleksandr Alonkin](./assets/photo.jpg)
 
-**Telegram**: [@Alionkin](https://t.me/Alionkin)  
-**Email**: alionalexxx@gmail.com  
+**Telegram**: [@Alionkin](https://t.me/Alionkin)
+**Email**: alionalexxx@gmail.com
+**Discord**: (rs-school server) Alexx Alon | @nevox-alexx
 
 ---
 
