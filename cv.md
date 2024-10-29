@@ -34,6 +34,36 @@ I aim to develop a data compression algorithm that could have a global impact. O
 
 - **React TypeScript Pomodoro Timer** (PWA, in progress)  
   GitHub: [pomo-timer](https://github.com/nevox-alexxx/pomo-timer) 
+
+   **Example a part of Custom Hook from current pet project:**
+
+  ```typescript
+  const handleTimerExpiration = () => {
+    if (timeLeft === 0) {
+      setIsActive(false);
+      setTimeLeft(defaultTime * SECONDS_IN_MINUTE);
+      setIsPressed(!isActive);
+      if (alert) {
+        console.log('Time is up!');
+        playAlert();
+      }
+    }
+  };
+
+  useEffect(() => {
+    let interval: number;
+
+    if (isActive && timeLeft > 0) {
+      interval = setInterval(() => {
+        setTimeLeft((prevTime) => prevTime - 1);
+      }, 1000);
+    } else if (timeLeft === 0) {
+      setIsActive(false);
+    }
+
+    return () => clearInterval(interval);
+  }, [isActive, timeLeft]);
+
 ---
 
 ## 🎓 Education
