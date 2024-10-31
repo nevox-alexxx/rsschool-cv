@@ -1,0 +1,1 @@
+[rsschool-cv](https://nevox-alexxx.github.io/rsschool-cv/)
